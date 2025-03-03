@@ -188,7 +188,7 @@ def main():
                 print("No line detected - Continuing movement.")
                 pid_control()
 
-            time.sleep(0.00001)  # Adjust for smooth operation
+            time.sleep(0.00001)  
 
     except KeyboardInterrupt:
         print("\nKeyboardInterrupt detected! Stopping motors and cleaning up GPIO.")
