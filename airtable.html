@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elias Bilal Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <style>
+        /* Inline CSS for centering the video */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0; /* Optional: adds some vertical spacing */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -26,23 +35,26 @@
         </div>
     </header>
     <article>
-        <center><h8>Line Following Robot</h8></center>
+        <center><h6>Line Following Robot</h6></center>
     </article>
     <article>
-        <center><h7>Skills: Air Table, Python, Laser Cutter, Raspberry Pi</h7></center>
+        <center><h6>Skills: Air Table, Python, Laser Cutter, Raspberry Pi</h6></center>
     </article>
     <article>
         <div>
-            <img controls class="stillcenter" width="400" height="380" src="IMG_7003.jpg" alt="Airtable Image">
+            <img class="stillcenter" width="400" height="380" src="IMG_7003.jpg" alt="Airtable Image">
         </div>
     </article>
     <article>
-        <div>
+        <!-- Centered video container -->
+        <div class="video-container">
             <video width="400" height="300" controls>
-                <source src="airtable_vid.mp4" class="stillcenter" type="video/quicktime">
-            </source>
+                <source src="airtable_vid.mov" type="video/quicktime">
+                <source src="airtable_vid.mp4" type="video/mp4"> <!-- Fallback option -->
+                Your browser does not support the video tag.
+            </video>
         </div>
-        <h7><a href="https://github.com/ebilal01/ME-35-Projects/blob/main/airtable.py" target="_self">Terminal Code</a></h7>
+        <h6><a href="https://github.com/ebilal01/ME-35-Projects/blob/main/airtable.py" target="_self">Terminal Code</a></h6>
     </article>
     <h2>In my Robotics and Mechatronics course, I was challenged to create a line-following robot using a line sensor. Emma and I created a robot that can functionally follow the line using a PID and stop 2 inches away from a barrier using a proximity sensor.</h2>
 </body>
