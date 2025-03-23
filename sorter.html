@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,54 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elias Bilal Portfolio</title>
-
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+        .stillcenter {
+            display: block;
+            margin: 20px auto;
+        }
+        article {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="header-content">
-      <h3>Elias Bilal</h3>
-      <h6>Mechanical Engineer</h6>
-  </div>
- <nav>
-      <ul class="nav_links" style="color: black; text-decoration: none;"></ul>
-        <li><a href="https://ebilal01.github.io/Elias-Bilal-Portfolio/index.html" style="color: black; text-decoration: none;">about me</a> </li>
-        <li><a href="https://ebilal01.github.io/Elias-Bilal-Portfolio/engineering.html" style="color: black; text-decoration: none;">engineering</a> </li>
-        <li><a href="https://ebilal01.github.io/Elias-Bilal-Portfolio/art.html" style="color: black; text-decoration: none;">art</a> </li>
-	<li><a href="index.html" style="color: black; text-decoration: none;">ME 35</a> </li>
-        
-    </nav>
-    <div class="flex-parent jc-center">
-      <button><a type="submit" onclick = "location.href= 'https://ebilal01.github.io/Elias-Bilal-Portfolio/contact.html'" >Contact</a></button>
-      </div>
+    <header>
+        <div class="header-content">
+            <h3>Elias Bilal</h3>
+            <h6>Mechanical Engineer</h6>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="https://ebilal01.github.io/Elias-Bilal-Portfolio/index.html" style="color: black; text-decoration: none;">about me</a></li>
+                <li><a href="https://ebilal01.github.io/Elias-Bilal-Portfolio/engineering.html" style="color: black; text-decoration: none;">engineering</a></li>
+                <li><a href="https://ebilal01.github.io/Elias-Bilal-Portfolio/art.html" style="color: black; text-decoration: none;">art</a></li>
+                <li><a href="index.html" style="color: black; text-decoration: none;">ME 35</a></li>
+            </ul>
+        </nav>
+        <div class="flex-parent jc-center">
+            <button><a onclick="location.href='https://ebilal01.github.io/Elias-Bilal-Portfolio/contact.html'">Contact</a></button>
+        </div>
     </header>
+    
     <article>
-<center><h8>Color Sorting Robot</h8></center>
-        </article>
+        <h8>Color Sorting Robot</h8>
+    </article>
+    
     <article>
-<center><h7>Skills: Servo Motor, Stepper Motor, Rapid Prototyping, Color Sensor, Laser Cutter, H-Bridge, Rasberry Pi, HTML, Python, Band Saw </h7></center>
-        </article>
+        <h7>Skills: Servo Motor, Stepper Motor, Rapid Prototyping, Color Sensor, Laser Cutter, H-Bridge, Raspberry Pi, HTML, Python, Band Saw</h7>
+    </article>
+    
     <article>
-	    <div>
-        <img controls class = "stillcenter" width="400" height="380" src="IMG_9536.jpg" alt="Sorter Image">
-    </div>
-     <article>
+        <div>
+            <img class="stillcenter" width="400" height="380" src="IMG_9536.jpg" alt="Sorter Image">
+        </div>
+    </article>
+    
+    <article>
         <div class="video-container">
             <video width="400" height="300" controls>
-                <source src="Color_Sorter_Video (2).mp4" type="video/quicktime">
+                <source src="Color_Sorter_Video (2).mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
     </article>
-	      <article>
+    
+    <article>
         <div class="video-container">
             <video width="400" height="300" controls>
-                <source src="Color_Sorter_Terminal (1).mp4" type="video/quicktime">
+                <source src="Color_Sorter_Terminal (1).mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
     </article>
-      <a class="text"></a>
-    <h2>In my Robotics and Mechatronics course I was challenged to sort colored balls using a color sensor. Sarah Abbo and I created a sorting robot which can functionally limit the process to handling one ball at a time, detect the color of the ball, then make a decision to move the hopper to the correct section, then dispense and reload the next ball from the funnel autonomously. </h2>
+    
+    <h2>In my Robotics and Mechatronics course I was challenged to sort colored balls using a color sensor. Sarah Abbo and I created a sorting robot which can functionally limit the process to handling one ball at a time, detect the color of the ball, then make a decision to move the hopper to the correct section, then dispense and reload the next ball from the funnel autonomously.</h2>
 </body>
 </html>
