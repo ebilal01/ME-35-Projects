@@ -1,1 +1,90 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elias Bilal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+        .stillcenter {
+            display: block;
+            margin: 20px auto;
+        }
+        article {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h3>Elias Bilal</h3>
+            <h6>Mechanical Engineer</h6>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="https://ebilal01.github.io/Elias-Bilal-Portfolio/index.html" style="color: black; text-decoration: none;">about me</a></li>
+                <li><a href="https://ebilal01.github.io/Elias-Bilal-Portfolio/engineering.html" style="color: black; text-decoration: none;">engineering</a></li>
+                <li><a href="https://ebilal01.github.io/Elias-Bilal-Portfolio/art.html" style="color: black; text-decoration: none;">art</a></li>
+                <li><a href="index.html" style="color: black; text-decoration: none;">ME 35</a></li>
+            </ul>
+        </nav>
+        <div class="flex-parent jc-center">
+            <button><a onclick="location.href='https://ebilal01.github.io/Elias-Bilal-Portfolio/contact.html'">Contact</a></button>
+        </div>
+    </header>
+    
+    <article>
+        <h8>Line following Robot</h8>
+    </article>
+    
+    <article>
+        <h7>Skills: PID Control, DC Motor, Rapid Prototyping, Raspberry Pi Camera Module 2, 3D Printing, H-Bridge, Raspberry Pi, HTML, Python, Airtable</h7>
+    </article>
+    
+    <article>
+        <div>
+            <img class="stillcenter" width="400" height="380" src="Screenshot 2025-02-27 130831.png" alt="camerabot Image">
+        </div>
+    </article>
+    <article>
+        <div>
+            <img class="stillcenter" width="400" height="380" src="Screenshot 2025-03-23 110149.png" alt="camerabot Image">
+        </div>
+    </article>
+    
+    <article>
+        <div class="video-container">
+            <video width="400" height="300" controls>
+                <source src="IMG_1234.mp4" type="video/mp4">
+               
+            </video>
+        </div>
+    </article>
+    
+    <article>
+        <div class="video-container">
+            <video width="400" height="300" controls>
+                <source src="CAMERA_LINE_FOLLOWER_VIDEO.mov" type="video/mp4">
+                
+            </video>
+        </div>
+    </article>
+    
+    <article>
+        <center><h6><a href="https://github.com/ebilal01/ME-35-Projects/blob/main/camerabot.py" target="_self">Terminal Code</a></h7></center>
+    </article>
+    
+    <p>In my Robotics and Mechatronics course the class was challenged to create an autonomous pancake making robot using a camera. We created a robot which can functionally follow the line and communicate with different stations of the pancake making process through Airtable to control timing and quality of each operation. The output was 2 edible pancakes with selected toppings specific to the users input order on the front end website.</p>
+</body>
+</html>
