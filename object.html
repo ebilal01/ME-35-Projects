@@ -16,12 +16,33 @@
     <title>Elias Bilal Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
     <style>
-        /* Inline CSS for centering the video */
         .video-container {
             display: flex;
             justify-content: center;
-            align-items: center;
-            margin: 20px 0; /* Optional: adds some vertical spacing */
+            margin: 20px 0;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+        video1 {
+            float: left;
+            margin-right: 15px; 
+            max-width: 100%;
+            height: auto;
+        }
+        video2 {
+            float: right;
+            margin-left: 15px; 
+            max-width: 100%;
+            height: auto;
+        }
+        .stillcenter {
+            display: block;
+            margin: 20px auto;
+        }
+        article {
+            text-align: center;
         }
     </style>
 </head>
@@ -49,12 +70,8 @@
         <center><h6>Skills: Object Recognition, Python, Laser Cutter, proximity Sensor, 3D Print, Raspberry Pi</h6></center>
     </article>
     <article>
-<div>
+ <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
             <img class="stillcenter" width="400" height="380" src="Screenshot 2025-03-22 185220.png" alt="Airtable Image">
-        </div>
-    </article>
-    <article>
-        <div class="stillcenter">
             <iframe src="https://drive.google.com/file/d/13JKl-vNiFGFPP5ItZtfZZyvUZ80N5hlM/preview" width="400" height="380" allow="autoplay"></iframe>
         </div>
         <center><h6><a href="https://github.com/ebilal01/ME-35-Projects/blob/main/object.py" target="_self">Terminal Code</a></h6></center>
